@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Cross_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Cross_Icon" data-name="Cross Icon" clip-path="url(#clip-Cross_Icon)">
+    <g id="Group_1154" data-name="Group 1154" transform="translate(-1468 -209)">
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="20" cy="20" r="20" transform="translate(1472 213)" fill="#fff"/>
+      <path id="Icon_ionic-ios-close-circle" data-name="Icon ionic-ios-close-circle" d="M24.931,3.375A21.556,21.556,0,1,0,46.487,24.931,21.553,21.553,0,0,0,24.931,3.375Zm5.462,29.36-5.462-5.462L19.47,32.735a1.656,1.656,0,1,1-2.342-2.342l5.462-5.462L17.127,19.47a1.656,1.656,0,1,1,2.342-2.342l5.462,5.462,5.462-5.462a1.656,1.656,0,1,1,2.342,2.342l-5.462,5.462,5.462,5.462a1.664,1.664,0,0,1,0,2.342A1.645,1.645,0,0,1,30.393,32.735Z" transform="translate(1467.068 208.069)" fill="#118d3f"/>
+    </g>
+  </g>
+</svg>

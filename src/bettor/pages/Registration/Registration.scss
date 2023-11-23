@@ -1,0 +1,294 @@
+.Registration__Background {
+  width: 100%;
+  height: auto;
+  background: url(../../assets/img/reg_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.Registration__Section {
+  position: relative;
+  padding: 80px 170px 80px 200px;
+}
+
+.Registration__Inner {
+  width: 614px;
+  float: left;
+  padding: 20px;
+  margin-right: 150px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: .5px solid #2A2A2A;
+
+  & .Registration__Inner__Head {
+    height: 80px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .Registration__Body {
+    border: .5px solid #00DB51;
+    padding: 15px;
+    border-radius: 8px;
+
+    & h6 {
+      margin-top: 24px;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    & .form-check-label,
+    & .form-check-label a {
+      color: #fff;
+      font-size: 14px;
+    }
+
+    & .form-check-label span {
+      color: #00DB51;
+    }
+  }
+}
+
+.Registration__Button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 15px;
+  color: #2A2A2A;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+
+.Registration__Right {
+  max-width: 700px;
+  float: left;
+
+  & .Registration__Logo {
+    text-align: center;
+    width: 100%;
+
+    & img {
+      margin-left: 0;
+      margin-top: 100px;
+      width: 355px;
+    }
+  }
+}
+
+.Registration__Btn__Create {
+  align-items: center;
+  border-radius: 30px 30px;
+  background: linear-gradient(to bottom, #2A2929 0%, #118D3F 100%);
+  color: white;
+  display: flex;
+  font-size: 20px;
+  height: 58px;
+  justify-content: center;
+  margin-left: 180px;
+  width: 354px;
+
+  & i {
+    color: #F7B32D;
+    margin-right: 10px;
+  }
+}
+
+.Registration__Img {
+  margin-top: 50px;
+}
+
+@media (max-width: 1800px) {
+  .Registration__Section {
+    padding: 80px;
+  }
+
+  .Registration__Inner {
+    width: 600px;
+    margin-right: 80px;
+  }
+
+  .Registration__Right {
+    max-width: 480px;
+
+    & .Registration__Logo img {
+      width: 360px;
+    }
+  }
+
+  .Registration__Btn__Create {
+    margin-left: 90px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .Registration__Right .Registration__Logo {
+    left: 50%;
+    position: absolute;
+    top: -100px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .Registration__Section {
+    padding: 200px; 
+  }
+  .Registration__Btn__Create {
+    position: absolute;
+    top: 105px;
+    left: 270px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Registration__Btn__Create {
+    position: absolute;
+    top: 10px;
+    left: -150px;
+  }
+
+  .Registration__Section {
+    padding: 50px;
+    min-height: 1100px;
+  }
+
+  .Registration__Inner {
+    width: 614px;
+    margin-right: 0;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .Registration__Right {
+    max-width: 859px;
+    width: 100%;
+    position: relative;
+    min-height: 1100px;
+    z-index: 0;
+
+    & .Registration__Logo {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+
+      & img {
+        margin-top: 0px;
+      }
+    }
+
+    & .Registration__Button__Create {
+      position: absolute;
+      top: 104px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    & .Registration__Img {
+      position: absolute;
+      bottom: -50px;
+      right: -45px;
+      width: 530px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Registration__Btn__Create {
+    position: absolute;
+    top: 10px;
+    left: -250px;
+  }
+
+  .Registration__Section {
+    padding: 30px;
+  }
+
+  .Registration__Inner {
+    width: 500px;
+
+    & .Registration__Body .form-check-label,
+    & .Registration__Body .form-check-label a {
+      color: #fff;
+      font-size: 12px;
+    }
+
+    & .Registration__Inner__Head {
+      height: 60px;
+      font-size: 26px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .Registration__Section {
+    padding: 15px;
+  }
+
+  .Registration__Inner {
+    width: 90%;
+    padding: 5px;
+    top: 160px;
+    overflow: hidden;
+
+    & .Registration__Inner__Head {
+      height: 50px;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    & .Registration__Body h6 {
+      font-size: 14px;
+    }
+  }
+
+  .Registration__Button {
+    font-size: 16px;
+    height: 50px;
+    padding: 13px 15px;
+    margin-top: 60px;
+  }
+
+  .Registration__Float {
+    display: block;
+    float: inherit !important ;
+    // margin-top: 13px !important;
+    // margin-left: -20px;
+  }
+
+  .Registration__Right .Registration__Logo img {
+    width: 250px;
+  }
+
+  .Registration__Right .Registration__Button__Create {
+    top: 68px;
+  }
+
+  .Registration__Right .Registration__Img {
+    display: none;
+  }
+
+  .Registration__Btn__Create {
+    font-size: 16px;
+    height: 50px;
+    width: 245px;
+  }
+  .Registration__Btn__Create {
+    left: -200px;
+    position: absolute;
+    top: 10px;
+  }
+}

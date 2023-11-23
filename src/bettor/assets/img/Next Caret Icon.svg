@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Next_Caret_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Next_Caret_Icon" data-name="Next Caret Icon" clip-path="url(#clip-Next_Caret_Icon)">
+    <path id="Path_1051" data-name="Path 1051" d="M9,28.716l9.108-9.108L9,10.5" transform="translate(-1.442 -7.884)" fill="none" stroke="#f7b32d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

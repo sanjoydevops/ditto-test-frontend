@@ -1,0 +1,115 @@
+.TeamInputLabel {
+  margin-bottom: 0;
+}
+
+.TeamMembersContainer {
+  margin-bottom: 25px;
+
+  h4 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+
+.TeamMembersContent {
+  background: #515554;
+  border: 1px solid #292b2a;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0 0 5px 2px #000;
+  // height: 417px;
+  overflow: auto;
+
+  ::-webkit-scrollbar {
+    background-color: transparent;
+    margin-right: 5px;
+    width: 13px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(16 16 16 / .14);
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: url(../../../assets/img/scroll-icon.png) no-repeat center;
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  }
+}
+
+.TeamMemberContainer {
+  background-color: #3f4140;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.TeamMemberContainer__ActiveBetAccepted {
+  background-color: royalblue;
+}
+
+.TeamMemberContent {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  margin: -3px;
+}
+
+.TeamMemberImage {
+  display: grid;
+  justify-content: center;
+  width: 15%;
+
+  img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.TeamMemberInfo {
+  margin: 5px;
+  width: 75%;
+}
+
+.TeamMemberName p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.TeamMemberBadge {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.TeamMemberRating {
+}
+
+.TeamMemberRating {
+  color: #f7b32f;
+  margin-left: 15px;
+}
+
+.TeamMemberRemove {
+  display: grid;
+  justify-content: center;
+  width: 10%;
+
+  i {
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 375px) {
+  .TeamMembersContainer h4 {
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  .TeamMemberContent {
+    margin: 0px;
+  }
+}

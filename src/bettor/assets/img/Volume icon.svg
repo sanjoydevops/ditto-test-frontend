@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Volume_icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Volume_icon" data-name="Volume icon" clip-path="url(#clip-Volume_icon)">
+    <g id="Group_2832" data-name="Group 2832" transform="translate(0.062 -0.27)">
+      <g id="Rectangle_403" data-name="Rectangle 403" transform="translate(-0.062 0.27)" fill="none" stroke="#00db51" stroke-width="1">
+        <rect width="24" height="24" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="23" height="23" rx="1.5" fill="none"/>
+      </g>
+      <path id="Icon_awesome-volume-up" data-name="Icon awesome-volume-up" d="M4.99,2.466,2.925,4.632H.557A.571.571,0,0,0,0,5.217V8.724a.571.571,0,0,0,.557.585H2.925L4.99,11.475a.554.554,0,0,0,.951-.413V2.879A.554.554,0,0,0,4.99,2.466ZM10.4,1.221a.545.545,0,0,0-.778.169.607.607,0,0,0,.161.816,5.761,5.761,0,0,1,2.455,4.764,5.761,5.761,0,0,1-2.455,4.764.607.607,0,0,0-.161.816.546.546,0,0,0,.778.169A6.954,6.954,0,0,0,13.365,6.97,6.953,6.953,0,0,0,10.4,1.221Zm.734,5.749a4.555,4.555,0,0,0-1.99-3.805.539.539,0,0,0-.769.182.609.609,0,0,0,.172.813,3.419,3.419,0,0,1,0,5.622.609.609,0,0,0-.172.813.54.54,0,0,0,.769.182A4.554,4.554,0,0,0,11.138,6.97ZM7.848,5.1a.545.545,0,0,0-.757.23.6.6,0,0,0,.219.794.983.983,0,0,1,0,1.7.6.6,0,0,0-.219.794.544.544,0,0,0,.757.23,2.181,2.181,0,0,0,0-3.745Z" transform="translate(4.871 5.429)" fill="#00db51"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Dropdown_Caret_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Dropdown_Caret_Icon" data-name="Dropdown Caret Icon" clip-path="url(#clip-Dropdown_Caret_Icon)">
+    <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down" d="M9,13.5l9.817,9.817L28.635,13.5" transform="translate(-7.127 -6.814)" fill="none" stroke="#118d3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  LATEST_IMAGE: $CI_REGISTRY_IMAGE:latest
+  TAGGED_IMAGE: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG-$CI_COMMIT_SHORT_SHA
+
+build:
+  before_script:
+    - until docker info; do sleep 1; done
+  image: docker:20.10
+  only:
+    - main
+  script:
+    - docker login -p "$CI_REGISTRY_PASSWORD" -u "$CI_REGISTRY_USER" $CI_REGISTRY
+    - docker pull $LATEST_IMAGE || true
+    - docker build --cache-from $LATEST_IMAGE -f Dockerfile.prod -t $TAGGED_IMAGE -t $LATEST_IMAGE .
+    - docker push $TAGGED_IMAGE
+    - docker push $LATEST_IMAGE
+  services:
+    - docker:20.10-dind
+  stage: build
+  variables:
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: /certs
+    DOCKER_TLS_VERIFY: 1
+    DOCKER_CERT_PATH: $DOCKER_TLS_CERTDIR/client
+
+deploy:
+  image: jshimko/kube-tools-aws:latest
+  only:
+    - main
+  script:
+    - cat deployment.yml | sed "s~{{IMAGE}}~$TAGGED_IMAGE~g" | kubectl --kubeconfig ${KUBECONFIG} apply -f -
+  stage: deploy

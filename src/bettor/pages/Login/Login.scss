@@ -1,0 +1,374 @@
+.Login__Background {
+  width: 100%;
+  height: auto;
+  background: url(../../assets/img/login_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.Login__Rounded__Pill {
+  color: white;
+  background: linear-gradient(to bottom, #272F29 0%, #12873E 100%);
+  width: 250px;
+  height: 50px;
+
+  & span {
+    color: yellow;
+    margin-left: 5px;
+  }
+}
+
+.Login__Page__Field {
+  position: relative;
+  min-height: calc(100vh - 80px);
+}
+
+.Login__Form__Background {
+  width: 614px;
+  margin-left: 50px;
+  box-shadow: 1px 1px 3px 3px;
+  border: 2px solid #2A2A2A;
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.Login__Left__Explore {
+  max-width: 700px;
+  float: left;
+  margin-right: 150px;
+
+  & h1 {
+    color: white;
+  }
+}
+
+.Login__Input__Field__Background {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+
+  & h6 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+}
+
+.Login__Main__Section {
+  position: relative;
+  padding: 80px 170px 80px 200px;
+
+  & .Login__Left__Explore {
+    max-width: 700px;
+    float: left;
+    margin-right: 150px;
+  }
+
+  & .Login__Form__Background {
+    max-width: 614px;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 27px 20px;
+  }
+
+  & .Login__Input__Field__Background {
+    padding: 15px;
+  }
+}
+
+.Login__Head h3 {
+  width: 100%;
+  text-align: center;
+  background-color: #06BD4B;
+  color: white;
+  padding: 23px;
+  border-radius: 5px 5px 0 0;
+}
+
+.Login__Logo {
+  width: 52%;
+
+  & img {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 450px;
+  }
+}
+
+.Login__Forgot__Password,
+.Login__Forgot__Password:hover {
+    color: #00DB51;
+    font-size: 14px;
+}
+
+.Login__Create__Account,
+.Login__Create__Account:hover {
+    color: #fff;
+    font-size: 14px;
+    float: right;
+}
+
+.Login__Log__Btn {
+  text-align: center;
+}
+
+.Login__Button {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 90px;
+  height: 59px;
+  border-radius: 30px 30px 30px 30px;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 1800px) {
+
+  .Login__Main__Section {
+    padding: 230px;
+
+    & .Login__Left__Explore {
+      max-width: 480px;
+      margin-right: 80px;
+      margin-top: 80px;
+    }
+
+    & .Login__Form__Background {
+      max-width: 600px;
+      margin-top: 0;
+      height: 545px;
+    }
+  }
+
+}
+
+@media (max-width: 1366px){
+  .Login__Main__Section {
+    position: relative;
+    padding: 40px 50px;
+  }
+}
+
+@media (max-width: 1024px){
+  .Login__Main__Section {
+    position: relative;
+    padding: 40px 0px 0px 220px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1150px) {
+
+  .Login__Form__Background {
+    margin: 0 0 0 35px;
+    width: 270px;
+    height: 400px;
+    box-shadow: 1px 1px 3px 3px;
+    border: 2px solid #2A2A2A;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .Login__Img img {
+    height: auto;
+    width: 260px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .Login__Main__Section {
+    padding: 50px;
+    min-height: 870px;
+
+    & .Login__Left__Explore {
+      max-width: 859px;
+      width: 100%;
+      position: relative;
+      min-height: 870px;
+      z-index: 0;
+      margin-right: 0;
+      margin-top: 0;
+
+      & .Login__Img {
+        position: absolute;
+        bottom: -50px;
+        left: -45px;
+        width: 530px;
+      }
+    }
+
+    & .Login__Form__Background {
+      width: 614px;
+      margin-right: 0;
+      margin-top: 20px;
+      z-index: 1;
+      position: absolute;
+      top: 220px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .Login__Main__Section {
+    padding: 30px;
+
+    & .Login__Form__Background {
+      width: 502px;
+      height: auto;
+      top: 182px;
+      box-shadow: none;
+    }
+  }
+
+  .Login__Head h3 {
+    padding: 16px;
+  }
+
+  .Login__Forgot__Password {
+      font-size: 12px;
+  }
+
+  .Login__Create__Account {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .Login__Main__Section {
+    padding: 15px;
+    min-height: 700px;
+
+    & .Login__Left__Explore {
+      min-height: 700px;
+
+      & .Login__Logo {
+        width: 250px;
+      }
+
+      & .Login__Img {
+        display: none;
+      }
+    }
+
+    & .Login__Form__Background {
+      width: 90%;
+      padding: 5px;
+      top: 160px;
+      overflow: hidden;
+    }
+  }
+
+	.Login__Head h3 {
+    height: 50px;
+    font-size: 20px;
+    padding: 13px;
+    font-weight: 300;
+  }
+
+  .Login__Input__Field__Background h6 {
+    font-size: 14px;
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+	.Login__Button {
+    font-size: 16px;
+    height: 50px;
+    margin-top: 60px;
+  }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+
+  .Login__Form__Background {
+    margin: 0 0 0 35px;
+    width: 270px;
+    height: 400px;
+    box-shadow: 1px 1px 3px 3px;
+    border: 2px solid #2A2A2A;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .Login__Img img {
+      height: auto;
+      width: 260px;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+  .Login__Page__Field {
+      position: relative;
+  }
+
+  .Login__Form__Background {
+    margin: 0 0 0 10px;
+    width: 270px;
+    height: 400px;
+    box-shadow: 1px 1px 3px 3px;
+    border: 2px solid #2A2A2A;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .Login__Logo {
+    width: 60%;
+  }
+
+  .Login__Img img {
+    height: auto;
+    width: 200px;
+  }
+
+  .Login__Rounded__Pill {
+    font-size: 13px;
+    color: white;
+    background: linear-gradient(to bottom, #272F29 0%, #12873E 100%);
+    width: 160px;
+    height: 40px;
+  }
+
+  .Login__Head h3 {
+    width: 100%;
+    text-align: center;
+    background-color: #06BD4B;
+    color: white;
+    margin-top: 2px;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .Login__Input__Field__Background {
+    color: white;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+
+    & h6 {
+      font-size: 15px;
+      margin-left: 8px;
+      padding-top: 15px;
+    }
+  }
+
+  .Login__Button {
+    font-size: 18px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 30px 30px 30px 30px;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,227 @@
+.Live__Container {
+  margin-top: 100px;
+  max-width: 1320px;
+}
+
+.Live__Header {
+  display: flex;
+
+  h3 {
+    color: #fff;
+    font-family: Nexa;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+  }
+}
+
+.Live__My__Tab__Content {
+  margin-top: 26px;
+}
+
+.Live__Grid__Container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #0a6b0a;
+}
+
+.Live__Grid__Item {
+  border: 1px solid #3cb067;
+  padding: 5px;
+  font-size: 15px;
+  background: #0a6b0a;
+}
+
+.Live__Content__Field {
+  background: #fec107;
+  text-align: center;
+
+}
+
+.Live__Content__Field p {
+  margin: 0;
+  color: #000;
+}
+
+.Live__Left__Text {
+  color: white;
+}
+
+.Live__Vs {
+  height: 30px;
+  margin: 10px 60px;
+}
+
+.Live__Content__Bg {
+  background: #21472e;
+  text-align: center;
+}
+
+.Live__Content__Text {
+  background: #068033;
+}
+
+.Live__Content__Colour {
+  color: #efc569;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+}
+
+.Live__Content__Text1 {
+  background: #108d3f;
+  height: 62px;
+  margin: 5px 0px;
+  padding: 20px;
+  border: 2px solid #11d257;
+}
+
+.Live__Content__Colour1 {
+  color: white;
+}
+
+.Live__Nav__Background__Top {
+  background-image: linear-gradient(180deg, #125c11, #2b742b);
+  border: none;
+  height: 40px;
+  font-size: 16px;
+
+  li {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.Live__Nav__Background {
+  background-image: linear-gradient(180deg, #125c11, #2b742b);
+  border: none;
+
+  li {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.Live__Bg {
+  background: #09680a;
+  padding: 0;
+}
+
+.Live {
+  :global(.tab-content) {
+    :global(.tab-pane) {
+      margin-top: -24px;
+    }
+  }
+
+  :global(.nav-tabs) {
+    :global(.nav-item) {
+
+      &:global(.nav-link),
+      :global(.nav-link) {
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        text-align: center;
+
+        &:global(.active) {
+          background-color: #fec107;
+          color: #020407;
+        }
+      }
+
+      &:global(.nav-link) {
+        padding: 6px;
+        position: relative;
+
+        &:focus,
+        &:hover {
+          background: #fec107;
+          transition: background 0.20s linear;
+        }
+
+        &:global(.active) {
+          background-color: #fec107;
+          color: #020407;
+
+          &:after {
+            border: 10px solid transparent;
+            border-top-color: #fec107;
+            bottom: -18px;
+            content: "";
+            left: 40%;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .Live__Grid__Item {
+    overflow: hidden;
+  }
+
+  .Live__Grid__Container {
+    justify-content: center;
+  }
+
+  .Live__Team__Name{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Live__Content__Colour {
+    margin: 45px 0px 0px 0px;
+  }
+
+  .Live__Content__Text1 {
+    margin: 45px 0px 0px 0px;
+  }
+  .Live__Point{
+    margin-top: 25px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .Live {
+    :global(.container) {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: var(--bs-gutter-x, 0);
+      padding-left: var(--bs-gutter-x, 0);
+      width: 100%;
+    }
+  }
+
+  .Live__Grid__Item {
+    border: 1px solid #3cb067;
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .Live__Vs {
+    height: 30px;
+    margin: 10px 30px;
+  }
+
+  .Live__Grid__Container {
+    justify-content: center;
+  }
+
+  .Live__Content__Colour {
+    margin: 45px 0px 0px 0px;
+  }
+
+  .Live__Content__Text1 {
+    margin: 45px 0px 0px 0px;
+  }
+
+  .Live__Point{
+    margin-top: 25px;
+  }
+}

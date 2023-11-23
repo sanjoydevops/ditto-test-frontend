@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Rating_Star_blanck_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Rating_Star_blanck_Icon" data-name="Rating Star blanck Icon" clip-path="url(#clip-Rating_Star_blanck_Icon)">
+    <path id="Icon_ionic-md-star" data-name="Icon ionic-md-star" d="M15.657,22.624l7.329,4.422L21.048,18.7l6.47-5.609-8.529-.732L15.657,4.5l-3.332,7.864L3.8,13.1l6.47,5.609L8.327,27.046Z" transform="translate(-3.518 -3.888)" fill="none" stroke="#f7b32d" stroke-width="1"/>
+  </g>
+</svg>

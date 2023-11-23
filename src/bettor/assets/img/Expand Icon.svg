@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Expand_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Expand_Icon" data-name="Expand Icon" clip-path="url(#clip-Expand_Icon)">
+    <path id="Icon_ionic-md-add" data-name="Icon ionic-md-add" d="M29.25,19.5H19.5v9.75h-3V19.5H6.75v-3H16.5V6.75h3V16.5h9.75Z" transform="translate(-6 -6)" fill="#00db51" stroke="#00db51" stroke-width="1"/>
+  </g>
+</svg>

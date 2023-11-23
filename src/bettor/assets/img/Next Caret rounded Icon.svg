@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Next_Caret_rounded_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Next_Caret_rounded_Icon" data-name="Next Caret rounded Icon" clip-path="url(#clip-Next_Caret_rounded_Icon)">
+    <path id="Icon_awesome-chevron-circle-right" data-name="Icon awesome-chevron-circle-right" d="M11.737.563A11.175,11.175,0,1,1,.563,11.737,11.173,11.173,0,0,1,11.737.563ZM16.87,10.971,10.764,4.866a1.077,1.077,0,0,0-1.528,0l-.766.766a1.077,1.077,0,0,0,0,1.528l4.578,4.578L8.47,16.315a1.077,1.077,0,0,0,0,1.528l.766.766a1.077,1.077,0,0,0,1.528,0L16.87,12.5A1.082,1.082,0,0,0,16.87,10.971Z" transform="translate(0.438 0.438)" fill="#f7b32d"/>
+  </g>
+</svg>

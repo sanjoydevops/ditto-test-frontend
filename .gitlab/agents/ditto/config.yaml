@@ -1,0 +1,4 @@
+gitops:
+  manifest_projects:
+  - id: pitocms/ditto-ui
+    default_namespace: ditto

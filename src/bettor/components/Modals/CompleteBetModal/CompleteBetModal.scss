@@ -1,0 +1,105 @@
+.modal-complete-bet {
+  padding: 60px 0 15px;
+  color: #fff;
+
+  & h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  & h6 {
+    font-size: 18px;
+    font-weight: 300;
+
+    &.box-title {
+      text-align: center;
+    }
+  }
+
+  & .radio {
+    margin: 30px 0 50px;
+
+    & .form-check:first-child {
+      width: 40%;
+    }
+
+    & label {
+      font-size: 18px;
+      font-weight: 300;
+      margin-left: 5px;
+    }
+  }
+
+  & .box {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #00db51;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    & .star {
+      margin-bottom: 20px;
+    }
+
+    & .bet-box {
+      width: 81px;
+      float: left;
+      text-align: center;
+
+      & input[type="radio"] {
+        visibility: hidden;
+  
+        &:checked {
+          & + label img {
+            border-color: white;
+          }
+  
+          & + label .title {
+            color: white;
+          }
+        }
+      }
+
+      & label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          padding: 13px;
+          background: #131813;
+          border: 1px solid #00db51;
+          margin-bottom: 5px;
+        }
+
+        & .title {
+          font-size: 16px;
+          font-weight: 300;
+          color: #00db51;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-complete-bet h4 {
+    font-size: 20px;
+  }
+
+  .modal-complete-bet h6 {
+    font-size: 16px;
+  }
+
+  .modal-complete-bet .radio label {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="Exclusion_5" x="-7" y="-7" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-audio_call_icon">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="audio_call_icon" data-name="audio call icon" clip-path="url(#clip-audio_call_icon)">
+    <g id="audio_call" data-name="audio call" transform="translate(2 2)">
+      <g transform="matrix(1, 0, 0, 1, -2, -2)" filter="url(#Exclusion_5)">
+        <path id="Exclusion_5-2" data-name="Exclusion 5" d="M14,28A14,14,0,0,1,4.1,4.1,14,14,0,0,1,23.9,23.9,13.911,13.911,0,0,1,14,28ZM10.124,7.584a.292.292,0,0,0-.179.086L7.936,9.678a1,1,0,0,0-.252.536,3.99,3.99,0,0,0,.252,1.866,9.885,9.885,0,0,0,.87,1.866,16.653,16.653,0,0,0,1.189,1.682c.453.569.778.958.963,1.155.15.16.3.311.444.461l.435.418c.293.272.687.6,1.205,1s1.058.784,1.633,1.155a8.373,8.373,0,0,0,1.906.912A4.532,4.532,0,0,0,18,20.99a3.052,3.052,0,0,0,.43-.03.985.985,0,0,0,.534-.251l2.01-2.009a.217.217,0,0,0,.068-.193.251.251,0,0,0-.135-.176l-2.93-1.725a.408.408,0,0,0-.217-.07.4.4,0,0,0-.284.137l-.871.87a.731.731,0,0,1-.536.218,2.708,2.708,0,0,1-1.33-.561,10.157,10.157,0,0,1-1.214-.9c-.242-.226-.444-.421-.6-.578l-.52-.536a11.084,11.084,0,0,1-1.021-1.339,2.572,2.572,0,0,1-.517-1.288.822.822,0,0,1,.234-.519l.736-.738a.439.439,0,0,0,.084-.519L10.3,7.737C10.251,7.636,10.194,7.584,10.124,7.584Z" transform="translate(2 2)" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
+</svg>

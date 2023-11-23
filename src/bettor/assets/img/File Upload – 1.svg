@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-File_Upload_1">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="File_Upload_1" data-name="File Upload – 1" clip-path="url(#clip-File_Upload_1)">
+    <path id="Icon_material-attach-file" data-name="Icon material-attach-file" d="M30,11.765V35.376a8.212,8.212,0,1,1-16.425,0V9.712a5.133,5.133,0,1,1,10.265,0V31.27a2.053,2.053,0,0,1-4.106,0v-19.5h-3.08v19.5a5.133,5.133,0,1,0,10.265,0V9.712a8.212,8.212,0,0,0-16.425,0V35.376a11.292,11.292,0,1,0,22.584,0V11.765Z" transform="translate(2.458 -0.084)" fill="#fff"/>
+  </g>
+</svg>

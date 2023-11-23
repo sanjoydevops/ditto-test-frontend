@@ -1,0 +1,234 @@
+.team-user-list {
+  background-image: linear-gradient(1turn, #0f3d16, #0d2410);
+  border-radius: 5px;
+  display: flex;
+  height: 610px;
+  // margin-top: 30px;
+  max-width: 411px;
+  overflow: hidden;
+  padding: 20px 10px 20px 15px;
+}
+
+.team-user-list .active-team-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+  padding-right: 7px;
+}
+
+.team-user-list .active-team-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: rgb(16 16 16 / 0.14);
+}
+
+.team-user-list .active-team-list::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+
+.team-user-list .active-team-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #d62929;
+  background: url(../../assets/img/arrow-icon.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.view-chat-list .view-chat-head .user .image {
+  width: 42px;
+  height: 42px;
+  margin-right: 20px;
+  float: left;
+  border: 1px solid #06bc4a;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.view-chat-list .view-chat-head .user .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.view-chat-list .view-chat-head .user .name {
+  color: #fff;
+  float: left;
+  font-size: 18px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.view-chat-list {
+  background-image: linear-gradient(1turn, #0f3d16, #0d2410);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  max-height: 814px;
+  max-width: 1146px;
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.view-chat-list .view-chat-head {
+  width: 100%;
+  min-height: 60px;
+  margin: 0px auto;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 9px 0;
+}
+
+.view-chat-list .view-chat-head .type {
+  float: left;
+  margin-right: 20px;
+}
+
+.view-chat-list .view-chat-head .type img {
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.view-chat-list .view-chat-head .user {
+  float: left;
+}
+
+.view-chat-head .chat-call-icon {
+  float: right;
+}
+
+.view-chat-head .chat-call-icon img {
+  margin: 5px 12px 5px 0;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.view-chat-list .chart-view {
+  max-width: 1127px;
+  width: 100%;
+  height: 410px;
+  background-image: linear-gradient(to right, #2e6141, #37403a);
+  margin: 0px auto;
+  margin-top: 15px;
+  padding: 25px 15px;
+  margin-bottom: 30px;
+  overflow-y: auto;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+
+.view-chat-list .message-field {
+  display: flex;
+  align-items: center;
+}
+
+.view-chat-list .message-field .image {
+  max-width: 110px;
+  width: 100%;
+  float: left;
+  margin-right: 17px;
+}
+
+.view-chat-list .message-field .image img {
+  width: 70px;
+  cursor: pointer;
+}
+
+.active-user-img img {
+  border-radius: 50%;
+  height: 42px;
+  margin-right: 5px;
+  width: 42px;
+}
+
+@media (max-width: 1800px) {
+  .view-chat-list .message-field .image {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .view-chat-list .view-chat-head {
+    min-height: 54px;
+  }
+
+  .view-chat-list .view-chat-head .type {
+    margin-right: 5px;
+  }
+
+  .view-chat-list .view-chat-head .type img {
+    margin-right: 5px;
+  }
+
+  .view-chat-list .view-chat-head .user .name {
+    max-width: 270px;
+  }
+
+  .view-chat-head .chat-call-icon img {
+    margin: 3px 8px 3px 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .view-chat-list .message-field .image {
+    margin-right: 8px;
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-user-list {
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .view-chat-list .view-chat-head .user .name {
+    max-width: 400px;
+  }
+
+  .view-chat-list .message-field .image {
+    max-width: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .view-chat-list .view-chat-head .type {
+    display: none;
+  }
+
+  .view-chat-list .view-chat-head .user {
+    margin-left: 10px;
+  }
+
+  .view-chat-list .view-chat-head .user .name {
+    max-width: 300px;
+  }
+
+  .view-chat-list .chart-view {
+    height: 350px;
+    margin-bottom: 15px;
+  }
+
+  .view-chat-list .message-field .image {
+    max-width: 40px;
+  }
+
+  .active-user-img img {
+    height: 32px;
+    width: 32px;
+  }
+}

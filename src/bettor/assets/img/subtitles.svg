@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="25" viewBox="0 0 35 25">
+  <defs>
+    <clipPath id="clip-subtitles">
+      <rect width="35" height="25"/>
+    </clipPath>
+  </defs>
+  <g id="subtitles" clip-path="url(#clip-subtitles)">
+    <g id="Group_2841" data-name="Group 2841" transform="translate(5)">
+      <g id="Rectangle_406" data-name="Rectangle 406" transform="translate(-5)" fill="none" stroke="#00db51" stroke-width="1">
+        <rect width="35" height="25" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="34" height="24" rx="1.5" fill="none"/>
+      </g>
+      <text id="CC" transform="translate(2 17)" fill="#00db51" font-size="15" font-family="NexaBold, Nexa" letter-spacing="0.028em"><tspan x="0" y="0">CC</tspan></text>
+    </g>
+  </g>
+</svg>

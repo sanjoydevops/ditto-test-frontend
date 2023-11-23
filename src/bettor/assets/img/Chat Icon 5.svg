@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Chat_Icon_5">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Chat_Icon_5" data-name="Chat Icon 5" clip-path="url(#clip-Chat_Icon_5)">
+    <path id="Icon_material-chat-bubble" data-name="Icon material-chat-bubble" d="M5.337,3h18.7A2.344,2.344,0,0,1,26.37,5.337V26.37L21.7,21.7H5.337A2.344,2.344,0,0,1,3,19.359V5.337A2.344,2.344,0,0,1,5.337,3Z" transform="translate(-2.685 -2.631)" fill="#00db51"/>
+  </g>
+</svg>

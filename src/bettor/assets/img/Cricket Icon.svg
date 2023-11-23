@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Cricket_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Cricket_Icon" data-name="Cricket Icon" clip-path="url(#clip-Cricket_Icon)">
+    <g id="noun_Cricket_2705936" transform="translate(-30.218 -153.734)">
+      <g id="Group_997" data-name="Group 997" transform="translate(31.605 155.121)">
+        <path id="Path_1062" data-name="Path 1062" d="M141.676,181.942l1.086-1.086-3.836-3.835-1.086,1.084A2.714,2.714,0,1,0,141.676,181.942Zm34.011-21.091a5.357,5.357,0,1,1-5.357,5.358,5.36,5.36,0,0,1,5.357-5.358ZM144.116,179.5l2.336-2.339-3.836-3.835-2.337,2.339Zm3.688-3.691,2.112-2.111h6.13l26.77-26.765-4.988-4.983-4.984-4.984q-13.378,13.38-26.765,26.765v6.135l-2.111,2.11Z" transform="translate(-136.963 -136.97)" fill="rgba(255,223,159,0.51)" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

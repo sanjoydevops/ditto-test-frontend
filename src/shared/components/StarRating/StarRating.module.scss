@@ -1,0 +1,75 @@
+.StarRating {
+  &--1 img {
+    height: 17px;
+    margin-top: -7px;
+    width: 17px;
+  }
+
+  &--2 img {
+    height: 20px;
+    width: 20px;
+  }
+
+  &--3 img {
+    width: 12px;
+  }
+
+  &--4 img {
+    height: 14px;
+    width: 14px;
+  }
+
+  &--5 img {
+    height: 24px;
+    width: 24px;
+  }
+
+  &--6 img {
+    margin-right: 5px;
+    width: 33px;
+  }
+
+  & input[type=radio] {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 992px) {
+  .StarRating {
+    &--1 img {
+      height: 14px;
+      margin-top: -4px;
+      width: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .StarRating {
+    &--1 img {
+      height: 14px;
+      margin-top: -4px;
+      width: 14px;
+    }
+
+    &--6 img {
+      width: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .StarRating {
+    &--1 img {
+      height: 10px;
+      margin-top: -4px;
+      width: 10px;
+    }
+
+    &--2 img {
+      height: 15px;
+      margin-right: 5px;
+      width: 15px;
+    }
+  }
+}

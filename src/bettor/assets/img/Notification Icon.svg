@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cfcfcf"/>
+    </linearGradient>
+    <clipPath id="clip-Notification_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Notification_Icon" data-name="Notification Icon" clip-path="url(#clip-Notification_Icon)">
+    <g id="Icon_feather-bell" data-name="Icon feather-bell" transform="translate(-0.5 -2)">
+      <path id="Path_1048" data-name="Path 1048" d="M38.62,16.648a13.648,13.648,0,1,0-27.3,0C11.324,32.57,4.5,37.12,4.5,37.12H45.444S38.62,32.57,38.62,16.648" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_1049" data-name="Path 1049" d="M23.275,31.5a4.549,4.549,0,0,1-7.87,0" transform="translate(5.632 14.718)" fill="none" stroke="#118d3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

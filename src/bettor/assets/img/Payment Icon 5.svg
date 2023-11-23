@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Payment_Icon_5">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Payment_Icon_5" data-name="Payment Icon 5" clip-path="url(#clip-Payment_Icon_5)">
+    <path id="Icon_material-payment" data-name="Icon material-payment" d="M24.033,6H5.337A2.319,2.319,0,0,0,3.012,8.337L3,22.359A2.329,2.329,0,0,0,5.337,24.7h18.7a2.329,2.329,0,0,0,2.337-2.337V8.337A2.329,2.329,0,0,0,24.033,6Zm0,16.359H5.337V15.348h18.7Zm0-11.685H5.337V8.337h18.7Z" transform="translate(-2.685 -2.631)" fill="#00db51"/>
+  </g>
+</svg>

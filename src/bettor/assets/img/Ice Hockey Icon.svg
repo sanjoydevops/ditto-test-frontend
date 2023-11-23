@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Ice_Hockey_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Ice_Hockey_Icon" data-name="Ice Hockey Icon" clip-path="url(#clip-Ice_Hockey_Icon)">
+    <g id="noun_ice_hockey_1422673" data-name="noun_ice hockey_1422673" transform="translate(-11.317 -17.332)">
+      <g id="Group_1015" data-name="Group 1015" transform="translate(16.317 18.253)">
+        <path id="Path_1085" data-name="Path 1085" d="M52.666,34.18l-9.182-6.388a5.468,5.468,0,0,0-9.487.18l-6.926,12.6a5.454,5.454,0,0,0-.436,4.233l-11.57,11.92a1.643,1.643,0,0,0,2.357,2.288l11.124-11.46a5.462,5.462,0,0,0,8.121-1.707l.029-.053,2.668,4.117L33.3,57.593a3.169,3.169,0,0,0-1.6-.4c-1.258,0-2.277.616-2.277,1.375s1.019,1.375,2.277,1.375,2.277-.616,2.277-1.375c0-.021-.009-.041-.01-.062l6.021-7.629,5.747,8.87A1.643,1.643,0,0,0,48.5,57.965l-6.355-9.807,8.823-11.179a1.641,1.641,0,0,0,1.7-2.8ZM41.512,47.188l-3.021-4.662,5.1-9.279a5.453,5.453,0,0,0,.446-1.068l6.016,4.186Z" transform="translate(-14.601 -15.48)" fill="rgba(255,223,159,0.51)"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="4.568" cy="4.568" r="4.568" transform="translate(25.259)" fill="rgba(255,223,159,0.51)"/>
+        <path id="Path_1086" data-name="Path 1086" d="M73.8,90.75H67.312a.547.547,0,1,0,0,1.095H73.8a.547.547,0,1,0,0-1.095Z" transform="translate(-38.206 -45.172)" fill="rgba(255,223,159,0.51)"/>
+      </g>
+    </g>
+  </g>
+</svg>

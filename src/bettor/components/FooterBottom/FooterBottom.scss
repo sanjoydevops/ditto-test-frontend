@@ -1,0 +1,39 @@
+.FooterBottom {
+  align-items: center;
+  background: linear-gradient(#118d3f, #2a2929);
+  border-radius: 10px 10px 0 0;
+  color: #00ff5e;
+  display: flex;
+  font-size: 16px;
+  height: 80px;
+  justify-content: center;
+  width: 100%;
+}
+
+.FooterBottom__Higlight {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.FooterBottom__Separator {
+  color: #fff;
+  margin: 0 30px;
+}
+
+@media (max-width: 576px) {
+
+  .FooterBottom {
+    font-size: 10px !important;
+  }
+
+  .FooterBottom__Higlight {
+    font-size: 10px !important;
+  }
+
+  .FooterBottom__Separator {
+    margin: 0px 9px !important;
+  }
+
+}

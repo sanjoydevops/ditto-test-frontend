@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Eye_open_Icon_">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Eye_open_Icon_" data-name="Eye open Icon " clip-path="url(#clip-Eye_open_Icon_)">
+    <path id="Icon_ionic-md-eye" data-name="Icon ionic-md-eye" d="M13.514,7.383A12.113,12.113,0,0,0,2.25,14.976a12.151,12.151,0,0,0,22.528,0A12.113,12.113,0,0,0,13.514,7.383Zm0,12.657a5.064,5.064,0,1,1,5.119-5.064A5.106,5.106,0,0,1,13.514,20.04Zm0-8.1a3.038,3.038,0,1,0,3.072,3.037A3.065,3.065,0,0,0,13.514,11.939Z" transform="translate(-1.653 -1.737)" fill="#838282"/>
+  </g>
+</svg>

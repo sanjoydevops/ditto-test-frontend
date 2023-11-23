@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <filter id="Ellipse_32" x="-7.5" y="-4.5" width="86.851" height="86.851" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1159" x="9.179" y="13.632" width="43.997" height="50.795" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1160" x="38.125" y="13.632" width="24.264" height="37.425" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Sore_Loser_rounded_Icon">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Sore_Loser_rounded_Icon" data-name="Sore Loser  rounded Icon" clip-path="url(#clip-Sore_Loser_rounded_Icon)">
+    <g id="Group_2262" data-name="Group 2262" transform="translate(69.852 69.85) rotate(180)">
+      <g transform="matrix(-1, 0, 0, -1, 69.85, 69.85)" filter="url(#Ellipse_32)">
+        <ellipse id="Ellipse_32-2" data-name="Ellipse 32" cx="33.926" cy="33.925" rx="33.926" ry="33.925" transform="translate(69.85 69.85) rotate(180)" fill="rgba(0,0,0,0.51)" stroke="#00db51" stroke-width="1"/>
+      </g>
+      <g id="Icon_ionic-md-thumbs-up" data-name="Icon ionic-md-thumbs-up" transform="translate(16.963 18.133)">
+        <g transform="matrix(-1, 0, 0, -1, 52.89, 51.72)" filter="url(#Path_1159)">
+          <path id="Path_1159-2" data-name="Path 1159" d="M3.126,31.586H17.274a3.018,3.018,0,0,0,2.813-1.925l4.7-11.137A3.148,3.148,0,0,0,25,17.372V14.2c0-1.736-1.4-3.669-3.109-3.669h-9.8l1.481-6.7.049-.494a2.384,2.384,0,0,0-.683-1.67L11.269,0,.9,10.471A3.166,3.166,0,0,0,0,12.7V28.493A3.1,3.1,0,0,0,3.126,31.586Z" transform="translate(43.68 51.72) rotate(180)" fill="#00db51" stroke="#118d3f" stroke-width="1"/>
+        </g>
+        <g transform="matrix(-1, 0, 0, -1, 52.89, 51.72)" filter="url(#Path_1160)">
+          <path id="Path_1160-2" data-name="Path 1160" d="M0,0H5.264V18.425H0Z" transform="translate(52.89 38.56) rotate(180)" fill="#00db51" stroke="#118d3f" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

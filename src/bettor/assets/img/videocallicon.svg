@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="Exclusion_4" x="-6.999" y="-7.001" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-video_call_icon">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="video_call_icon" data-name="video call icon" clip-path="url(#clip-video_call_icon)">
+    <g id="video_call" data-name="video call" transform="translate(2.001 1.999)">
+      <g transform="matrix(1, 0, 0, 1, -2, -2)" filter="url(#Exclusion_4)">
+        <path id="Exclusion_4-2" data-name="Exclusion 4" d="M14,28A14,14,0,0,1,4.1,4.1,14,14,0,0,1,23.9,23.9,13.908,13.908,0,0,1,14,28ZM7.886,9.133A1.188,1.188,0,0,0,6.7,10.319v7.157a1.187,1.187,0,0,0,1.186,1.186h7.157a1.188,1.188,0,0,0,1.187-1.186V10.319a1.188,1.188,0,0,0-1.187-1.187Zm12.31.793h0a.8.8,0,0,0-.453.142l-2.72,1.877v3.906l2.72,1.874a.8.8,0,0,0,.453.143.819.819,0,0,0,.553-.218.764.764,0,0,0,.244-.565V10.708a.792.792,0,0,0-.8-.782Z" transform="translate(2 2)" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
+</svg>

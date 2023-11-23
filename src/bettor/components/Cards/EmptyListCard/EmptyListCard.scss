@@ -1,0 +1,22 @@
+.Empty_List_Card {
+  height: 361px;
+  padding: 15px 30px;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .Empty_List_Card_Image {
+    width: 78px;
+    margin-bottom: 30px;
+  }
+
+  .Empty_List_Card_Message {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Telegram_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Telegram_Icon" data-name="Telegram Icon" clip-path="url(#clip-Telegram_Icon)">
+    <path id="Icon_awesome-telegram-plane" data-name="Icon awesome-telegram-plane" d="M44.4,7.928l-6.72,31.69c-.507,2.237-1.829,2.793-3.708,1.74L23.737,33.813,18.8,38.564a2.571,2.571,0,0,1-2.058,1l.736-10.428L36.451,11.993c.825-.736-.179-1.143-1.282-.408L11.709,26.357,1.61,23.2c-2.2-.686-2.237-2.2.457-3.251L41.57,4.727C43.4,4.041,45,5.135,44.4,7.928Z" transform="translate(1.999 0.472)" fill="rgba(255,223,159,0.51)"/>
+  </g>
+</svg>

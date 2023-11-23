@@ -1,0 +1,174 @@
+.OtpVerificationModal {
+  width: 100%;
+
+  .regField {
+    background: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .regHeader {
+    h2 {
+      align-items: center;
+      background-color: #06bc4a;
+      border-radius: 5px 5px 0 0;
+      color: #fff;
+      display: flex;
+      height: 80px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h5 {
+      color: #fff;
+      font-size: 20px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      max-width: 408px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .regBody {
+    border: 0.5px solid #00db51;
+    border-radius: 8px;
+    padding: 15px;
+  }
+
+  .otp-ibput-sec {
+    label {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  }
+
+  .otp-input-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+
+    input {
+      background-color: rgb(36 36 36 / 20%);
+      border: 1px solid #00db51;
+      border-radius: 5px;
+      color: white;
+      height: 45px;
+      margin-right: 15px;
+      text-align: center;
+      width: 55px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .otp-form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+
+  .resend-otp-btn {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+
+    span {
+      color: #00db51;
+    }
+  }
+  
+  .regButton {
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 1px;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .OtpVerificationModal {
+    .regHeader {
+      h2 {
+        height: 60px;
+        font-size: 26px;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+    }
+
+    .otp-ibput-sec {
+      label {
+        font-size: 18px;
+      }
+    }
+
+    .otp-input-box {
+      input {
+        height: 40px;
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .OtpVerificationModal {
+    .regField {
+      padding: 5px;
+    }
+
+    .regHeader {
+      h2 {
+        height: 50px;
+        font-size: 20px;
+        font-weight: 300;
+      }
+
+      h5 {
+        font-size: 14px;
+      }
+    }
+
+    .otp-ibput-sec {
+      label {
+        font-size: 14px;
+      }
+    }
+
+    .otp-input-box {
+      input {
+        height: 35px;
+        margin-right: 10px;
+        width: 45px;
+      }
+    }
+
+    .otp-form-footer {
+      display: grid;
+    }
+  
+    .resend-otp-btn {
+      font-size: 12px;
+    }
+    
+    .regButton {
+      font-size: 16px;
+      height: 50px;
+      padding: 13px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.container-fluid.VerificationMail {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url(../../assets/img/mail-bg.png);
+  background-size: cover;
+}
+
+section.VerificationMail-inner {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VerificationMail-header {
+  max-width: 296.79px;
+  width: 100%;
+}
+
+.VerificationMail-header img {
+  max-width: 100%;
+}
+
+.VerificationMail-body {
+  display: flex;
+  width: 100%;
+  max-width: 717px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  border: 1px solid #2a2a2a;
+  background: rgb(36 36 36 / 20%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.VerificationMail-body-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 39px;
+  border: 1px solid #00db51;
+  background: rgb(36 36 36 / 20%);
+  border-radius: 10px;
+}
+
+.VerificationMail-body-inner h3 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.VerificationMail-body-inner p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.VerificationMail-body .button-sec {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.VerificationMail-body .button-sec button {
+  width: 160px;
+  border: 0;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.VerificationMail-footer p {
+  margin: 0;
+}
+
+.VerificationMail-body .button-sec button.accept-btn {
+  background: #118d3f;
+  color: #fff;
+}
+
+.VerificationMail-body .button-sec button.decline-btn {
+  background: #ffd1d1;
+  color: #f32b2b;
+  margin-left: 50px;
+}
+
+.input-group .form-control {
+  border-radius: 4px !important;
+}

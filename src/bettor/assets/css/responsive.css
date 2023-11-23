@@ -1,0 +1,764 @@
+/*Large devices (tablets, 1800px and down)*/
+@media (max-width: 1800px) {
+  .ditto-default-container {
+    max-width: 1400px;
+  }
+
+  /*Verification Mail*/
+  section.VerificationMail-inner {
+    padding: 80px;
+  }
+
+  /*Login page*/
+
+  /*Main Profile*/
+
+  .profile-content-head .profile-photo {
+    left: 15px;
+  }
+
+  .profile-content-head .profile-photo .photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-content-head .info h5 {
+    font-size: 28px;
+  }
+
+  .profile-content-head .range {
+    bottom: 70px;
+    right: 15px;
+  }
+
+  .profile-content-head .range .member h3 {
+    font-size: 28px;
+  }
+
+  .profile-content-head .range .member h6 {
+    font-size: 16px;
+  }
+
+  .btn-p-id-info {
+    width: 90px;
+    line-height: 23px;
+    font-size: 17px;
+  }
+
+  .btn-teams-act,
+  .btn-teams-act:hover {
+    width: 110px;
+  }
+
+  .profile-content-head .info .ratting {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .profile-content-head .info {
+    bottom: 20px;
+    left: 235px;
+  }
+
+  .ditti-offer-main {
+    padding: 5px 10px 30px;
+  }
+
+  .ditto-offer-inner ul li,
+  .ditto-match-inner ul li {
+    padding: 8px;
+  }
+
+  .ditti-offer-main .offer-head {
+    /*height: 56px;*/
+  }
+
+  .ditti-offer-main .offer-head h5 {
+    /*font-size: 20px;
+        padding: 15px 10px;*/
+  }
+
+  .ditto-offer-inner ul li .name {
+    width: 55%;
+    font-size: 16px;
+  }
+
+  .ditto-match-inner .name {
+    width: 50%;
+  }
+
+  .ditto-match-inner .name h6 {
+    font-size: 16px;
+  }
+
+  .ditto-match-inner .name .like img {
+    margin-right: 5px;
+  }
+
+  .ditto-match-inner .message {
+    width: 40px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .ditto-default-container {
+    max-width: 1260px;
+  }
+}
+
+@media (max-width: 1147px) {
+  .ditto-default-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 992px) {
+  .deshboard-head .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/*Medium devices (tablets, 992px and down)*/
+@media (max-width: 992px) {
+  /*Main profile*/
+
+  .profile-content-head .mobile-d-none {
+    display: none !important;
+  }
+
+  .profile-content-head .info {
+    bottom: 5px;
+    left: 235px;
+  }
+
+  .profile-content-head .info h5 {
+    font-size: 28px;
+  }
+
+  .profile-content-head .info .location,
+  .profile-content-head .info .ratting {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .profile-content-head .info .type .class {
+    min-width: 46px;
+  }
+
+  .profile-content-head .info .type .p-info,
+  .profile-content-head .info .type .p-chat {
+    width: 46px;
+  }
+
+  .profile-content-head .info .type .bet {
+    max-width: 70px;
+  }
+
+  .profile-content-head .info .type .class img,
+  .profile-content-head .info .type .p-chat i,
+  .profile-content-head .info .type .p-info i {
+    margin-right: 0;
+  }
+
+  .profile-content-head .range {
+    bottom: 10px;
+  }
+
+  .profile-content-head .range .member h3 {
+    font-size: 24px;
+  }
+
+  .profile-content-head .range .member h6 {
+    font-size: 14px;
+  }
+
+  .profile-content-head .range .line {
+    height: 62px;
+    margin: 0 20px;
+  }
+
+  /*About Us*/
+  .about-us-inner .image {
+    height: 180px;
+    width: 180px;
+  }
+
+  .about-us-inner .content {
+    height: 180px;
+  }
+}
+
+/*Small devices (tablets, 768px and down)*/
+@media (max-width: 768px) {
+  /*table right arrow*/
+  .table-scroll-left {
+    display: block;
+  }
+
+  /*Nav*/
+  .deshboard-head .logo-team .logo {
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ditti-offer-main .offer-head,
+  .right-sidebar-section-header {
+    height: 57px;
+  }
+
+  .ditti-offer-main .offer-head h5,
+  .right-sidebar-section-header h3 {
+    font-size: 26px;
+  }
+
+  /*Main profile*/
+  .profile-content-head {
+    margin-bottom: 160px;
+  }
+
+  .profile-content-head .mobile-d-none {
+    display: none !important;
+  }
+
+  .profile-content-head .profile-photo {
+    bottom: -35px;
+    left: 20px;
+  }
+
+  .profile-content-head .profile-photo .photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-content-head .info {
+    bottom: 5px;
+    left: 235px;
+  }
+
+  .profile-content-head .info h5 {
+    font-size: 28px;
+  }
+
+  .profile-content-head .info .location,
+  .profile-content-head .info .ratting {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .profile-content-head .info .type .class {
+    min-width: 40px;
+  }
+
+  .profile-content-head .info .type .p-chat,
+  .profile-content-head .info .type .p-info {
+    width: 40px;
+  }
+
+  .profile-content-head .info .type .class img,
+  .profile-content-head .info .type .bet img,
+  .profile-content-head .info .type .p-chat i,
+  .profile-content-head .info .type .p-info i {
+    margin-right: 0;
+  }
+
+  .profile-content-head .range {
+    position: static;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 5px;
+  }
+
+  .profile-content-head .range .line {
+    height: 54px;
+    margin: 0 20px;
+  }
+
+  /*Verification Mail*/
+  section.VerificationMail-inner {
+    padding: 50px;
+  }
+
+  .VerificationMail-body-inner h3 {
+    font-size: 28px;
+  }
+
+  .VerificationMail-body-inner p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .VerificationMail-body .button-sec button {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  /*Login page*/
+
+  /*profile, payment*/
+  .dash-content-section .dash-content-inner h6 {
+    font-size: 18px;
+  }
+
+  .btn-cashout-acc,
+  .btn-cashout-acc:hover {
+    height: 48px;
+    font-size: 18px;
+  }
+
+  .btn-add-pay-card,
+  .btn-add-pay-card:hover {
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .save-button,
+  .save-button:hover {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .sent-m-button,
+  .sent-m-button:hover {
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .btn-cancel,
+  .btn-cancel:hover {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+
+  .ditti-offer-main.float-right {
+    float: none !important;
+    margin: 0 auto;
+  }
+
+  .ditti-offer-main {
+    padding: 5px 10px 50px;
+  }
+
+  .space {
+    height: 1.5rem;
+    width: 100%;
+  }
+
+  /*Dashboard*/
+
+  .dash-content-section .dash1-content-head,
+  .dash-content-section .dash-content-head,
+  .profile-team .profile-team-head {
+    min-height: 57px;
+  }
+
+  .dash-content-section .dash-content-head h5,
+  .dash-content-section .dash1-content-head h5,
+  .profile-team .profile-team-head h5 {
+    font-size: 26px;
+  }
+
+  .ditto-match-list table thead td,
+  .payment-card-list table thead td {
+    font-size: 16px;
+  }
+
+  .ditto-match-list table tbody td {
+    height: 68px;
+    font-size: 16px;
+    padding: 0px;
+  }
+
+  .profile-team .profile-team-head span {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+
+  .profile-team .profile-team-head .head-right-link button {
+    font-size: 16px;
+  }
+
+  .btn-cashout-acc,
+  .btn-cashout-acc:hover {
+    margin-bottom: 0;
+  }
+
+  /*About Us*/
+
+  .about-us-inner {
+    padding: 15px 30px;
+  }
+
+  .about-us-inner .image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .about-us-inner .content {
+    height: auto;
+  }
+
+  .about-us-inner .content p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0px;
+  }
+
+  /*Modal design*/
+  .custom-modal .close {
+    top: -15px;
+    right: -15px;
+    height: 35px;
+    width: 35px;
+    font-size: 16px;
+  }
+
+  .team-modal h4,
+  .payment-modal h4 {
+    font-size: 20px;
+  }
+
+  .btn-modal-bet {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .team-modal .form-control,
+  .payment-modal .form-control {
+    height: 40px;
+    font-weight: 300;
+  }
+
+  .payment-modal .icon {
+    top: 11px;
+    right: 15px;
+  }
+
+  .payment-modal textarea.form-control {
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+/*Extra Small devices (landscape phones, 576px and down)*/
+@media (max-width: 576px) {
+  .ditti-offer-main .offer-head,
+  .right-sidebar-section-header {
+    height: 54px;
+  }
+
+  .ditti-offer-main .offer-head h5,
+  .right-sidebar-section-header h3 {
+    font-size: 22px;
+    padding: 13px 0;
+  }
+
+  /*Main content*/
+
+  .profile-content-head {
+    margin-bottom: 160px;
+    height: 320px;
+  }
+
+  .profile-content-head .profile-photo {
+    left: 15px;
+  }
+
+  .profile-content-head .profile-photo .photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-content-head .change-cover {
+    left: 15px;
+  }
+
+  .profile-content-head .notification {
+    right: 15px;
+  }
+
+  .profile-content-head .change-cover .custom-file-label {
+    font-size: 16px;
+  }
+
+  .profile-content-head .info {
+    left: 125px;
+  }
+
+  .profile-content-head .info h5 {
+    font-size: 24px;
+  }
+
+  .profile-content-head .info .location,
+  .profile-content-head .info .ratting {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .profile-content-head .info .ratting .rat {
+    margin-right: 10px;
+  }
+
+  .profile-content-head .range .member h3 {
+    font-size: 24px;
+  }
+
+  .profile-content-head .range .member h6 {
+    font-size: 13px;
+  }
+
+  .profile-content-head .range .line {
+    margin: 0 20px;
+    height: 52px;
+  }
+
+  .profile-team .profile-team-head {
+    min-height: 47px;
+  }
+
+  .profile-team .profile-team-head h5 {
+    font-size: 22px;
+    padding: 13px 10px;
+  }
+
+  .profile-team .profile-team-head h5 img {
+    margin-right: 5px;
+  }
+
+  .profile-team .profile-team-head span {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .profile-team .profile-team-head .head-right-link button {
+    font-size: 14px;
+  }
+
+  .profile-team .profile-team-head .head-right-link img {
+    height: 17.7px;
+    width: 17.7px;
+  }
+
+  .profile-team .profile-team-tab ul {
+    border-bottom: none;
+    justify-content: center;
+  }
+
+  .profile-team .profile-team-tab ul li a {
+    font-size: 16px;
+    width: 155px;
+    padding: 10px 0;
+  }
+
+  .btn-p-id-info {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .btn-p-a-info,
+  .btn-p-a-info:hover,
+  .btn-p-c-info,
+  .btn-p-c-info:hover {
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .btn-teams-act,
+  .btn-teams-act:hover {
+    height: 34px;
+    width: 95px;
+    line-height: 22px;
+  }
+
+  /*Verification Mail*/
+  section.VerificationMail-inner {
+    padding: 15px;
+  }
+
+  .VerificationMail-header {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .VerificationMail-body {
+    padding: 10px;
+    margin-top: 22px;
+  }
+
+  .VerificationMail-body-inner {
+    padding: 40px 30px;
+  }
+
+  .VerificationMail-body .button-sec button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .VerificationMail-body-inner p {
+    font-size: 20px;
+  }
+
+  .VerificationMail-body-inner h3 {
+    font-size: 22px;
+  }
+
+  .VerificationMail-body-inner p {
+    font-size: 16px;
+  }
+
+  .VerificationMail-body .button-sec button {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  /*Login page*/
+
+  /*Dashboard*/
+  .dash-content-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dash-content-section .w-1295,
+  .dash-content-section .w-1734,
+  .dash-content-section .w-1740 {
+    padding: 0;
+  }
+
+  .dash-content-section .dash-content-head {
+    min-height: 47px;
+  }
+
+  .dash-content-section .dash1-content-head {
+    min-height: 47px;
+  }
+
+  .dash-content-section .dash-content-head h5,
+  .dash-content-section .dash1-content-head h5 {
+    font-size: 18px;
+  }
+
+  /*Profile*/
+  .dash-content-section .dash-content-inner h6 {
+    font-size: 16px;
+  }
+
+  .suggested-filter .col-sm-6 {
+    width: 50%;
+  }
+
+  .ditto-balance-tab ul .p-bet {
+    top: -23px;
+  }
+
+  .btn-ditt-bal,
+  .btn-ditt-bal:hover {
+    height: 40px;
+    padding: 5px 2px;
+    font-size: 18px;
+  }
+
+  .ditto-offer-inner ul li .name {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .pro-more-button {
+    font-weight: 300;
+  }
+
+  .ditto-match-inner .name h6 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  /*About Us*/
+  .sent-m-button,
+  .sent-m-button:hover {
+    width: 165px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .btn-cancel,
+  .btn-cancel:hover {
+    font-size: 16px;
+  }
+
+  /*About Us*/
+
+  .about-us-inner {
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .about-us-inner.left .image,
+  .about-us-inner.right .image {
+    float: inherit !important;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .about-us-inner.right .content {
+    text-align: center;
+  }
+
+  /*Other user profile*/
+
+  .profile-bet-info .bet-left {
+    width: 110px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 300;
+  }
+
+  .profile-bet-info .bet-right {
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .profile-bet-info .bet-right.img img {
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
+  }
+
+  /*Modal design*/
+
+  .custom-modal .close {
+    top: -3px;
+    right: -3px;
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+  }
+
+  .btn-modal-bet {
+    width: 110px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  .profile-bet-info .bet-right {
+    height: 93px;
+  }
+
+  .profile-bet-info .bet-left {
+    height: 93px;
+  }
+}

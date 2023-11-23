@@ -1,0 +1,175 @@
+.Leader__Board {
+  margin-top: 100px;
+}
+
+.Leader__Board__Card__Bg {
+  align-items: center;
+  background-image: linear-gradient(360deg, #0f3d16, #0d2410);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 0px 10px;
+}
+
+.Leader__Board__Result__Card {
+  width: 97%;
+}
+
+.Leader__Board__Result__Header {
+  align-items: center;
+  background-color: #000000;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.Leader__Board__Result__Header h3 {
+  color: #fec107;
+  margin-top: 8px;
+}
+
+.Leader__Board__Result__Body {
+  margin-top: 7px;
+}
+
+.Leader__Board__Single__User__Field hr {
+  border-color: #00db51;
+  margin: 2px auto;
+  opacity: 0.4;
+}
+
+.Leader__Board__Single__User__Content {
+  align-items: center;
+  display: flex;
+  padding: 3px 10px;
+}
+
+.Leader__Board__Single__User__Image {
+  width: 15%;
+}
+
+.Leader__Board__Single__User__Image img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.Leader__Board__Image {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.Leader__Board__Single__User__Name {
+  width: 40%;
+}
+
+.Leader__Board__Single__User__Name p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.Leader__Board__Single__User__Rate {
+  width: 30%;
+}
+
+.Leader__Board__Single__User__Rate p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.Leader__Board__Single__User__Up {
+  text-align: center;
+  width: 15%;
+}
+
+.Leader__Board__Single__User__Up p {
+  margin-bottom: 0;
+}
+
+.Leader__Board__Updown__Head {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.Leader__Board__Single__User__Up .Leader__Board__Updown__Head {
+  margin-bottom: 10px;
+}
+
+.Leader__Board__Header__Border {
+  border: 1px solid #fff;
+}
+
+.Leader__Board__Color__Green {
+  color: #01db51;
+  font-size: 15px;
+}
+
+.Leader__Board__Color__Red {
+  color: #e05442;
+  font-size: 15px;
+}
+
+.Leader__Board__Color__Golden {
+  color: #c6bb8d;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .Leader__Board__Single__User__Name p {
+    word-break: break-all;
+  }
+}
+
+@media (max-width: 414px) {
+  .Leader__Board__Single__User__Image img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .Leader__Board__Single__User__Name p {
+    text-align: center;
+  }
+  
+  .Leader__Board__Single__User__Rate p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  :global(.dash-content-section) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Leader__Board__Single__User__Name p {
+    text-align: center;
+    word-break: break-all;
+  }
+
+  .Leader__Board__Card__Bg {
+    margin: 0px;
+  }
+
+  .Leader__Board__Single__User__Image img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .Leader__Board__Single__User__Content {
+    padding: 3px 3px;
+  }
+
+  .Leader__Board__Single__User__Name {
+    text-align: center;
+  }
+
+  .Leader__Board__Single__User__Rate p {
+    text-align: center;
+  }
+}

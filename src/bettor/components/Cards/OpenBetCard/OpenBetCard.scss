@@ -1,0 +1,58 @@
+@import '../Card';
+
+
+@media (max-width: 1366px){
+    .bet-btn-place {
+        top: 390px;
+        width: 240px;
+    }
+}
+
+@media (max-width: 1024px){
+    .bet-btn-place {
+        top: 410px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 768px){
+    .bet-btn-place {
+        width: 275px;
+        top: 390px;
+    }
+}
+
+@media (max-width: 576px){
+    .bet-btn-place {
+        top: 325px;
+        width: 260px;
+    }
+
+    .profile-info {
+        padding: 35px 30px;
+    }
+
+    .profile-info .details p {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 414px){
+    .bet-btn-place {
+        top: 305px;
+        width: 295px;
+    }
+}
+
+@media (max-width: 375px){
+    .bet-btn-place {
+        top: 323px;
+        width: 260px;
+    }
+}
+
+
+
+
+
+

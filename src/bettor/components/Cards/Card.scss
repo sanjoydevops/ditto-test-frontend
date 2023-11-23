@@ -1,0 +1,182 @@
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
+  padding: 35px 30px;
+  text-align: center;
+
+  .slider {
+    margin-bottom: 29px;
+  }
+
+  .details {
+    margin-bottom: 29px;
+  }
+
+  &.opens-team {
+    padding: 25px 30px;
+
+    .details {
+      margin-bottom: 65px;
+    }
+  }
+}
+
+.profile-info .slider .slider-img {
+  height: 78px;
+  margin: 0 auto;
+  width: 78px;
+}
+
+.profile-info .slider .slider-img img {
+  border-radius: 50%;
+  height: inherit;
+  width: inherit;
+}
+
+.profile-info .details h4 {
+  color: #118D3F;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-info .d-active {
+  margin-bottom: 19px;
+}
+
+.profile-info .d-active .type,
+.profile-info .d-completed .type {
+  margin-bottom: 32px;
+}
+
+.profile-info .details .type h4 {
+  margin-bottom: 0;
+}
+
+.profile-info .details .type h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.profile-info .details p {
+  font-size: 14px;
+  color: #838282;
+}
+
+.profile-info .details p a {
+  color: #118D3F;
+}
+
+.profile-info .details p span {
+  color: #000;
+}
+
+.profile-info .details .fun {
+  font-size: 14px;
+}
+
+.profile-info .details .fun.text-green {
+  color: #118D3F !important;
+}
+
+.profile-info .bot {
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.profile-info .bot.text-green {
+  color: #118D3F !important;
+}
+
+.profile-info .d-completed {
+  margin-bottom: 23px;
+}
+
+.profile-info .d-invitations {
+  margin-bottom: 20px;
+}
+
+.profile-info .d-invitations h4 {
+  margin: 0;
+}
+
+.profile-info .d-invitations h6 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.profile-info .d-invitations h6 span {
+  color: #838282;
+}
+
+.profile-info .top-button {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.profile-info .top-button .img {
+  height: 40px;
+  width: 40px;
+}
+
+.profile-info .top-button img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.profile-info .edit {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #118D3F;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .profile-info.opens-team {
+    padding: 25px 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .profile-info.opens-team {
+    padding: 25px 30px;
+  }
+
+  .profile-info {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-info .details h4 {
+    font-size: 20px;
+  }
+
+  .profile-info .details .type h6 {
+    font-size: 15px;
+  }
+
+  .profile-info .bot {
+    font-size: 18px;
+  }
+
+  .profile-bet-info .bet-left {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .profile-bet-info .bet-right {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

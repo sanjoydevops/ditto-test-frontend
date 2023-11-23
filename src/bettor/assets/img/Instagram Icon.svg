@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Instagram_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Instagram_Icon" data-name="Instagram Icon" clip-path="url(#clip-Instagram_Icon)">
+    <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(1 1)">
+      <path id="Exclusion_3" data-name="Exclusion 3" d="M33.88,45.174H11.293A11.293,11.293,0,0,1,0,33.88V11.294A11.3,11.3,0,0,1,11.293,0H33.88A11.294,11.294,0,0,1,45.174,11.294V33.88A11.292,11.292,0,0,1,33.88,45.174Zm-11.2-31.72a9.042,9.042,0,1,0,1.328.1A9.085,9.085,0,0,0,22.683,13.454ZM34.139,7.148a1.9,1.9,0,1,0,1.9,1.9A1.9,1.9,0,0,0,34.139,7.148Z" transform="translate(0 0)" fill="rgba(255,223,159,0.51)"/>
+    </g>
+  </g>
+</svg>

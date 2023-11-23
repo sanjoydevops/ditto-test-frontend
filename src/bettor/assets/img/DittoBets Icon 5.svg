@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-DittoBets_Icon_5">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="DittoBets_Icon_5" data-name="DittoBets Icon 5" clip-path="url(#clip-DittoBets_Icon_5)">
+    <g id="Group_1113" data-name="Group 1113" transform="translate(-459.021 -596.631)">
+      <g id="Group_1057" data-name="Group 1057" transform="translate(428.385 -463.165)">
+        <path id="Subtraction_3" data-name="Subtraction 3" d="M10,23.37H.847A.851.851,0,0,1,0,22.523V13.365a.849.849,0,0,1,.847-.846H10a.847.847,0,0,1,.846.846v9.157A.849.849,0,0,1,10,23.37ZM6.261,21.7v.835H9.6a.418.418,0,0,0,.417-.418v-4.59H9.181V21.7ZM2.5,19.614a1.252,1.252,0,1,0,1.252,1.252A1.253,1.253,0,0,0,2.5,19.614Zm2.921-2.921a1.252,1.252,0,1,0,1.252,1.252A1.254,1.254,0,0,0,5.426,16.692Zm2.921-2.922A1.252,1.252,0,1,0,9.6,15.022,1.254,1.254,0,0,0,8.348,13.771ZM2.5,21.283a.417.417,0,1,1,.417-.418A.418.418,0,0,1,2.5,21.283Zm2.921-2.922a.417.417,0,1,1,.417-.418A.418.418,0,0,1,5.426,18.362ZM8.348,15.44a.417.417,0,1,1,.417-.418A.418.418,0,0,1,8.348,15.44Zm5.943-.619a.829.829,0,0,1-.588-.243L7.121,8a.837.837,0,0,1,0-1.177L13.7.242a.835.835,0,0,1,1.176,0l6.58,6.58a.839.839,0,0,1,0,1.177l-6.58,6.58A.829.829,0,0,1,14.29,14.821Zm-.1-8.98a1.669,1.669,0,1,0,1.67,1.67A1.671,1.671,0,0,0,14.19,5.841Zm0-3.584h0l2.626,2.626.591-.59L14.485,1.373a.417.417,0,0,0-.591,0L10.973,4.294l.591.59,2.625-2.626Zm0,6.088a.835.835,0,1,1,.835-.835A.835.835,0,0,1,14.19,8.345Z" transform="translate(31.787 1060.165)" fill="#00db51"/>
+        <rect id="Rectangle_140" data-name="Rectangle 140" width="4" height="1" transform="translate(44.615 1080.663)" fill="#00db51"/>
+        <rect id="Rectangle_141" data-name="Rectangle 141" width="3" height="1" transform="translate(44.615 1078.663)" fill="#00db51"/>
+      </g>
+      <rect id="Rectangle_164" data-name="Rectangle 164" width="4.306" height="0.905" transform="translate(473.032 619.294)" fill="#00db51"/>
+      <rect id="Rectangle_165" data-name="Rectangle 165" width="0.56" height="0.905" transform="translate(477.897 619.294)" fill="#00db51"/>
+    </g>
+  </g>
+</svg>

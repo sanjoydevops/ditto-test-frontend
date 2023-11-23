@@ -1,0 +1,373 @@
+.deshboard-head {
+  background-color: rgb(12 45 15 / 60%);
+  box-shadow: 0 5px 4px -2px #302222;
+  position: fixed;
+  top: 0 !important;
+  width: 100%;
+  z-index: 1040;
+
+  & .logo-team {
+    display: flex;
+  }
+
+  & .logo-team .logo {
+    width: 100%;
+    max-width: 310px;
+    max-height: 104px;
+    margin-right: 100px;
+  }
+
+  & .logo-team .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .team .dropdown .btn {
+    width: 200px;
+    height: 48px;
+    color: #dedede;
+    border: 1px solid #00db51;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 9px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 20px;
+  }
+
+  & .team .dropdown .dropdown-menu {
+    min-width: initial;
+    width: 200px;
+    border: 1px solid #00db51;
+    background-color: #292b28;
+    padding: 12px 0;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+
+  & .team .dropdown .dropdown-menu a {
+    color: #dedede;
+    font-size: 18px;
+    padding: 11px 12px;
+    border-bottom: 1px solid #173823;
+    white-space: initial;
+  }
+
+  & .team .dropdown .dropdown-menu a:last-child {
+    border-bottom: none;
+  }
+
+  & .team .dropdown .dropdown-menu a:hover {
+    background-color: transparent;
+  }
+
+  & .team .dropdown .dropdown-toggle::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0dd";
+    color: #00db51;
+    right: 12px;
+    top: 7px;
+    position: absolute;
+    border: none;
+  }
+
+  & .team .dropdown.show .dropdown-toggle::after {
+    content: "\f0de";
+    top: 15px;
+  }
+
+  & .search-profile .top-search {
+    max-width: 102px;
+    height: 27px;
+    margin-top: 18px;
+    float: left;
+  }
+
+  & .search-profile .top-search .input-group-text {
+    padding: 6px;
+    background: transparent;
+    color: #f7b32d;
+    border: none;
+    height: 27px;
+  }
+
+  & .search-profile .top-search .form-control {
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    height: 27px;
+  }
+
+  & .search-profile .top-search .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  & .search-profile ul {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  & .search-profile ul li {
+    margin-right: 30px;
+  }
+
+  & .search-profile ul li:last-child {
+    margin-right: 35px;
+  }
+
+  & .search-profile .refer-button {
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #ffffff 0%, #cfcfcf 100%);
+    color: #118d3f;
+    text-transform: uppercase;
+    width: 135px;
+    font-size: 18px;
+    text-align: center;
+    height: 48px;
+    line-height: 31px;
+    margin-top: 6px;
+    cursor: pointer;
+  }
+
+  & .search-profile .refer-button:hover {
+    color: #118d3f;
+  }
+
+  & .search-profile .refer-button img {
+    width: 20px;
+  }
+
+  & .search-profile .profile img {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: -4px;
+  }
+
+  & .search-profile .profile .dropdown-toggle::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f107";
+    /* color: #108a3d; */
+    color: #00db51;
+    right: -30px;
+    top: 15px;
+    position: absolute;
+    font-size: 25px;
+  }
+
+  & .search-profile .notification-bell svg {
+    margin-top: 14px;
+  }
+
+  & .search-profile .menu-login a,
+  & .search-profile .menu-login a:hover {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 12px;
+  }
+
+  & .search-profile .profile .dropdown-toggle {
+    display: flex;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & .search-profile .profile .dropdown-toggle:after {
+    border: none;
+  }
+
+  & .search-profile .profile .dropdown-profile {
+    min-width: 335px;
+    border: 1px solid #108a3d;
+    background-color: #292b28;
+    padding: 12px 0 20px;
+    transform: translate3d(-250px, 6px, 0px) !important;
+    inset: unset !important;
+  }
+
+  & .search-profile .profile .dropdown-profile:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-135deg);
+    top: -11px;
+    right: 15px;
+    background: #292b28;
+    border-bottom: 1px solid #108a3d;
+    border-right: 1px solid #108a3d;
+  }
+
+  & .search-profile .profile .dropdown-profile a {
+    color: #dedede;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+  }
+
+  & .search-profile .profile .dropdown-profile a:hover {
+    background-color: transparent;
+  }
+
+  & .search-profile .profile .dropdown-profile a img {
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    border-radius: 0;
+    margin-right: 15px;
+  }
+}
+
+.higlight-search {
+  width: 411px;
+  float: left;
+  margin-right: 100px;
+  margin-top: 6px;
+
+  & .input-group {
+    position: relative;
+    width: 411px;
+    height: 48px;
+    border-radius: 30px !important;
+    border: 1px solid #00db51;
+  }
+
+  & .form-control {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    height: 44px;
+    width: 351px;
+  }
+
+  & .form-control:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+
+  & .input-group-append button {
+    border-radius: 0 30px 30px 0;
+    font-size: 18px;
+    height: 44px;
+    right: 1px;
+    top: 1px;
+    width: 59px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .deshboard-head {
+    & .logo-team .logo {
+      max-width: 260px;
+      margin-right: 60px;
+    }
+
+    & .team .dropdown .btn {
+      width: 265px;
+    }
+
+    & .team .dropdown .dropdown-menu {
+      width: 265px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .deshboard-head {
+    & .team .dropdown .btn {
+      width: 150px;
+      height: 48px;
+    }
+
+    & .team .dropdown .dropdown-menu {
+      width: 150px;
+      max-height: 200px;
+    }
+
+    & .search-profile .top-search {
+      margin-top: 7px;
+    }
+
+    & .navbar-toggler {
+      color: #fff;
+      border: 0;
+      padding-right: 0;
+    }
+
+    & .collapse-mobile {
+      position: absolute;
+      right: 15px;
+      top: 45px;
+      width: 350px;
+      z-index: 999;
+    }
+
+    & .search-profile .profile .dropdown-profile {
+      position: absolute !important;
+      top: 53px;
+    }
+
+    & .search-profile .profile .dropdown-profile a {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .deshboard-head {
+    & .logo-team .logo {
+      height: 75px;
+      margin-right: 15px;
+      max-width: 170px;
+    }
+
+    & .team .dropdown .btn {
+      font-size: 16px;
+      height: 40px;
+    }
+
+    & .team .dropdown .dropdown-menu a {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .deshboard-head {
+    & .logo-team .logo {
+      max-width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    & .search-profile .profile .dropdown-profile {
+      min-width: 315px;
+    }
+
+    & .team .dropdown .btn {
+      width: 105px;
+    }
+
+    & .team .dropdown .dropdown-menu {
+      width: 105px;
+      max-height: 150px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .deshboard-head .collapse-mobile {
+    top: 50px;
+  }
+}

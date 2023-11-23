@@ -1,0 +1,243 @@
+.custom-form {
+  .col-form-label {
+    color: #00db51;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .cust-form-label {
+    font-size: 14px;
+    line-height: 2.5;
+  }
+
+  .custom-file .custom-file-label {
+    background: transparent;
+    border: 1px solid #00db51;
+    border-radius: 430px;
+    color: #dedede;
+    font-size: 18px;
+    height: 60px;
+    padding: 15px;
+  }
+
+  .custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "";
+    padding: 0;
+  }
+
+  .form-check .form-check-label {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 2px;
+
+    a {
+      color: #00db51;
+    }
+  }
+
+  .form-control {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #00db51;
+    color: #dedede;
+    font-size: 18px;
+    height: 48px;
+    padding: 0.375rem 12px;
+
+    &[type=number] {
+      -moz-appearance:textfield;
+    }
+    
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    &:focus {
+      background-color: transparent;
+      border-color: #80bdff;
+      box-shadow: none;
+      color: #dedede;
+      outline: 0;
+    }
+
+    &::placeholder {
+      color: #dedede;
+      opacity: 1;
+    }
+
+    &.is-invalid {
+      border-color: #dc3545;
+    }
+  }
+
+  .react-tel-input .form-control {
+    padding: 18.5px 14px 18.5px 60px;
+    width: 100%;
+  }
+
+  select.form-control {
+    appearance: none;
+    background: rgba(0, 0, 0, 0) url(../img/DropdownChevronGreebIcon.png)
+      no-repeat scroll calc(100% + -12px) center/10px;
+
+    option {
+      color: #555;
+    }
+  }
+
+  textarea.form-control {
+    height: auto;
+  }
+
+  .form-group {
+    position: relative;
+
+    .icon {
+      position: absolute;
+      right: 17px;
+      top: 11px;
+
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+
+  .input-group {
+    position: relative;
+
+    .form-control {
+      border-radius: 0.25rem !important;
+      padding-right: 82px;
+    }
+  }
+
+  .input-group-append {
+    height: 100%;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+  }
+
+  .input-group-text {
+    background: #118d3f;
+    border: 1px solid #00db51;
+    color: #00db51;
+    font-size: 18px;
+    height: 44px;
+    text-align: center;
+    width: 82px;
+
+    &.btn-send-otp {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 90px;
+    }
+
+    &.btn-verify-phone {
+      width: 140px;
+    }
+  }
+
+  .input-label {
+    color: #00db51;
+    font-size: 18px;
+  }
+
+  .date-picker-icon {
+    color: #118d3f;
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.payment-modal {
+  .custom-form {
+    .form-control {
+      font-size: 14px;
+    }
+  }
+}
+
+.profile-file-upload {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .custom-form {
+    .col-form-label {
+      font-size: 14px;
+      line-height: 2.3;
+    }
+
+    .custom-file .custom-file-label {
+      border-radius: 30px;
+      font-size: 14px;
+      height: 48px;
+      padding: 9px;
+    }
+  }
+
+  .profile-file-upload {
+    height: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-form {
+    .form-control {
+      font-size: 14px;
+      height: 40px;
+    }
+
+    .form-group .icon {
+      right: 15px;
+      top: 10px;
+
+      img {
+        height: 17px;
+        width: 17px;
+      }
+    }
+
+    .input-group-text {
+      color: #00db51;
+      height: 36px;
+      font-size: 16px;
+      padding: 0px 20px;
+      width: 69px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-form {
+    .col-form-label {
+      font-size: 12px;
+    }
+
+    .cust-form-label {
+      padding: 0;
+    }
+
+    .custom-file .custom-file-label {
+      font-size: 10px;
+    }
+  }
+
+  .profile-file-upload {
+    height: 83px;
+
+    .col-sm-6 {
+      width: 50%;
+    }
+  }
+}

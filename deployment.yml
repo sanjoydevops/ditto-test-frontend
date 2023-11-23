@@ -1,0 +1,33 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    component: ditto-ui
+  name: ditto-ui
+  namespace: ditto
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      component: ditto-ui
+  template:
+    metadata:
+      labels:
+        component: ditto-ui
+    spec:
+      containers:
+        - image: {{IMAGE}}
+          name: ditto-ui
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: 100m
+              memory: 200Mi
+            requests:
+              cpu: 50m
+              memory: 100Mi
+      imagePullSecrets:
+        - name: ditto-ui

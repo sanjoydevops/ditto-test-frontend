@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Up_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Up_Icon" data-name="Up Icon" clip-path="url(#clip-Up_Icon)">
+    <path id="Icon_awesome-arrow-up" data-name="Icon awesome-arrow-up" d="M1.8,14.57.735,13.508a1.144,1.144,0,0,1,0-1.622l9.3-9.3a1.144,1.144,0,0,1,1.622,0l9.3,9.3a1.144,1.144,0,0,1,0,1.622l-1.062,1.062a1.15,1.15,0,0,1-1.641-.019L12.759,8.785V22.538a1.146,1.146,0,0,1-1.148,1.148H10.08a1.146,1.146,0,0,1-1.148-1.148V8.785L3.438,14.551A1.141,1.141,0,0,1,1.8,14.57Z" transform="translate(1.602 -1.246)" fill="#00db51"/>
+  </g>
+</svg>

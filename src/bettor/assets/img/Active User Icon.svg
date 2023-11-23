@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Active_User_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Active_User_Icon" data-name="Active User Icon" clip-path="url(#clip-Active_User_Icon)">
+    <g id="noun_News_feed_691491" data-name="noun_News feed_691491" transform="translate(-15.334 -15.69)">
+      <g id="Group_2238" data-name="Group 2238" transform="translate(18.967 18.984)">
+        <path id="Path_6143" data-name="Path 6143" d="M18.974,994.6a3.14,3.14,0,0,0,3.087,2.774,33.281,33.281,0,0,1,33.3,33.331,3.027,3.027,0,1,0,6.054,0,39.4,39.4,0,0,0-39.354-39.354,3.039,3.039,0,0,0-3.087,3.249Zm0,8.86a3.147,3.147,0,0,0,3.088,3A24.2,24.2,0,0,1,46.279,1030.7a3.027,3.027,0,1,0,6.054,0,30.318,30.318,0,0,0-30.272-30.272A3.136,3.136,0,0,0,18.973,1003.456Zm.035,9.287a3.139,3.139,0,0,0,3.053,2.79A15.117,15.117,0,0,1,37.2,1030.7a3.027,3.027,0,1,0,6.054,0,21.237,21.237,0,0,0-21.191-21.191A3.088,3.088,0,0,0,19.009,1012.742Zm6.08,8.876a6.054,6.054,0,1,0,6.054,6.054A6.1,6.1,0,0,0,25.088,1021.619Z" transform="translate(-18.967 -991.346)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

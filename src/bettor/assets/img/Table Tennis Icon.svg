@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Table_Tennis_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Table_Tennis_Icon" data-name="Table Tennis Icon" clip-path="url(#clip-Table_Tennis_Icon)">
+    <g id="noun_ping_pong_1974302" data-name="noun_ping pong_1974302" transform="translate(2.546 1.114)">
+      <g id="Group_1017" data-name="Group 1017" transform="translate(3.455 -0.714)">
+        <path id="Path_1096" data-name="Path 1096" d="M20.621,4683.957,4.724,4674a15,15,0,0,0,3,5.74c.943,1.1.56,1.472-.058,2.368L0,4693.305l5.311,3.326,6.725-11.778c.6-1.042.775-1.436,2.111-1.091A14.883,14.883,0,0,0,20.621,4683.957Z" transform="translate(0 -4649.519)" fill="rgba(255,223,159,0.51)"/>
+        <path id="Path_1097" data-name="Path 1097" d="M3251.84,970.165a3.128,3.128,0,1,0,0,4.426A3.127,3.127,0,0,0,3251.84,970.165Z" transform="translate(-3229.496 -964.173)" fill="rgba(255,223,159,0.51)"/>
+        <path id="Path_1098" data-name="Path 1098" d="M785.105,22.868,802.945,34.04a19.561,19.561,0,0,0,11.02-8.532c4.63-7.39,4.625-18.436-3.394-23.459s-17.96-.215-22.59,7.181A19.651,19.651,0,0,0,785.105,22.868ZM800.87,3.892a4.292,4.292,0,1,1-4.29,4.295A4.294,4.294,0,0,1,800.87,3.892Z" transform="translate(-780.737 0.021)" fill="rgba(255,223,159,0.51)"/>
+      </g>
+    </g>
+  </g>
+</svg>

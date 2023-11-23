@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Chat_Icon_Bigger">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Chat_Icon_Bigger" data-name="Chat Icon Bigger" clip-path="url(#clip-Chat_Icon_Bigger)">
+    <path id="Icon_feather-message-square" data-name="Icon feather-message-square" d="M4.5,34.985a5.081,5.081,0,0,0,5.081,5.081H40.066L50.228,50.228V9.581A5.081,5.081,0,0,0,45.147,4.5H9.581A5.081,5.081,0,0,0,4.5,9.581Z" transform="translate(-3.364 -2.864)" fill="#fff" stroke="#118d3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

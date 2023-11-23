@@ -1,0 +1,19 @@
+services:
+  ditto-ui:
+    build: .
+    container_name: ditto-ui
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1000M
+    image: itlogiko/ditto-ui
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WDS_SOCKET_PORT=0
+    ports:
+      - 3001:3000
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+version: '3.9'

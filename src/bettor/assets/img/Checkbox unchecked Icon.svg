@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Checkbox_unchecked_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Checkbox_unchecked_Icon" data-name="Checkbox unchecked Icon" clip-path="url(#clip-Checkbox_unchecked_Icon)">
+    <g id="Icon_ionic-ios-checkbox-outline" data-name="Icon ionic-ios-checkbox-outline" transform="translate(-3.5 -3.5)">
+      <path id="Path_1045" data-name="Path 1045" d="M24.867,4.5H6.352A1.85,1.85,0,0,0,4.5,6.352V24.867a1.85,1.85,0,0,0,1.852,1.852H24.867a1.85,1.85,0,0,0,1.852-1.852V6.352A1.85,1.85,0,0,0,24.867,4.5ZM25.1,24.636a.464.464,0,0,1-.463.463H6.583a.464.464,0,0,1-.463-.463V6.583a.464.464,0,0,1,.463-.463H24.636a.464.464,0,0,1,.463.463Z" transform="translate(0 0)" fill="#00db51"/>
+    </g>
+  </g>
+</svg>

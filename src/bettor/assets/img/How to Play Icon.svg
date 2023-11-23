@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-How_to_Play_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="How_to_Play_Icon" data-name="How to Play Icon" clip-path="url(#clip-How_to_Play_Icon)">
+    <path id="Icon_awesome-book-open" data-name="Icon awesome-book-open" d="M21.5,2.252c-2.173.123-6.491.572-9.156,2.2a.61.61,0,0,0-.288.522V19.4a.627.627,0,0,0,.923.535c2.743-1.38,6.709-1.757,8.67-1.86a1.236,1.236,0,0,0,1.19-1.215V3.469A1.243,1.243,0,0,0,21.5,2.252Zm-11,2.2c-2.665-1.632-6.983-2.08-9.156-2.2A1.243,1.243,0,0,0,0,3.469V16.863a1.236,1.236,0,0,0,1.19,1.215c1.962.1,5.93.48,8.673,1.861a.626.626,0,0,0,.92-.534V4.971A.6.6,0,0,0,10.5,4.456Z" transform="translate(0.433 0.679)" fill="#00db51"/>
+  </g>
+</svg>

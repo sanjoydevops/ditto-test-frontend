@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Next_Arrow_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Next_Arrow_Icon" data-name="Next Arrow Icon" clip-path="url(#clip-Next_Arrow_Icon)">
+    <g id="Icon_feather-arrow-right-circle" data-name="Icon feather-arrow-right-circle" transform="translate(-2.076 -2.077)">
+      <path id="Path_1108" data-name="Path 1108" d="M25.315,14.158A11.158,11.158,0,1,1,14.158,3,11.158,11.158,0,0,1,25.315,14.158Z" transform="translate(0 0)" fill="none" stroke="#00db51" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1109" data-name="Path 1109" d="M18,20.926l4.463-4.463L18,12" transform="translate(-3.842 -2.305)" fill="none" stroke="#00db51" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1110" data-name="Path 1110" d="M12,18h8.926" transform="translate(-2.305 -3.842)" fill="none" stroke="#00db51" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

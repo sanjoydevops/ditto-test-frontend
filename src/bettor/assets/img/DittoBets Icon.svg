@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-DittoBets_Icon">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="DittoBets_Icon" data-name="DittoBets Icon" clip-path="url(#clip-DittoBets_Icon)">
+    <g id="Group_1113" data-name="Group 1113" transform="translate(-456.171 -595)">
+      <g id="Group_1057" data-name="Group 1057" transform="translate(460.172 597)">
+        <path id="Subtraction_3" data-name="Subtraction 3" d="M18.612,43.475H1.576A1.583,1.583,0,0,1,0,41.9V24.863a1.579,1.579,0,0,1,1.576-1.574H18.612a1.576,1.576,0,0,1,1.574,1.574V41.9A1.579,1.579,0,0,1,18.612,43.475Zm-6.965-3.106v1.553h6.211a.777.777,0,0,0,.776-.778V32.606H17.08v7.763ZM4.659,36.487a2.329,2.329,0,1,0,2.329,2.329A2.331,2.331,0,0,0,4.659,36.487Zm5.435-5.435a2.329,2.329,0,1,0,2.329,2.329A2.332,2.332,0,0,0,10.094,31.053Zm5.435-5.435a2.33,2.33,0,1,0,2.329,2.329A2.332,2.332,0,0,0,15.529,25.617ZM4.659,39.594a.777.777,0,1,1,.776-.778A.778.778,0,0,1,4.659,39.594Zm5.435-5.435a.776.776,0,1,1,.776-.777A.778.778,0,0,1,10.094,34.159Zm5.435-5.435a.777.777,0,1,1,.776-.778A.778.778,0,0,1,15.529,28.724Zm11.055-1.152a1.541,1.541,0,0,1-1.094-.451L13.248,14.881a1.558,1.558,0,0,1,0-2.189L25.49.451a1.554,1.554,0,0,1,2.189,0L39.92,12.692a1.561,1.561,0,0,1,0,2.189L27.678,27.121A1.541,1.541,0,0,1,26.584,27.572ZM26.4,10.866A3.105,3.105,0,1,0,29.5,13.972,3.109,3.109,0,0,0,26.4,10.866Zm0-6.667v0l4.885,4.885,1.1-1.1L26.947,2.554a.776.776,0,0,0-1.1,0L20.414,7.989l1.1,1.1L26.4,4.2Zm0,11.326a1.553,1.553,0,1,1,1.553-1.553A1.554,1.554,0,0,1,26.4,15.525Z" transform="translate(0)" fill="#fff"/>
+        <rect id="Rectangle_140" data-name="Rectangle 140" width="7.441" height="1.86" transform="translate(23.865 38.133)" fill="#fff"/>
+        <rect id="Rectangle_141" data-name="Rectangle 141" width="5.581" height="1.86" transform="translate(23.865 34.412)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_164" data-name="Rectangle 164" width="8.011" height="1.684" transform="translate(484.096 638.473)" fill="#fff"/>
+      <rect id="Rectangle_165" data-name="Rectangle 165" width="1.041" height="1.684" transform="translate(493.147 638.473)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

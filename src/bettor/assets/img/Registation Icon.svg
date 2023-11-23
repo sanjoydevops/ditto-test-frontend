@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Registation_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Registation_Icon" data-name="Registation Icon" clip-path="url(#clip-Registation_Icon)">
+    <path id="Icon_awesome-user-plus" data-name="Icon awesome-user-plus" d="M22.772,7.591H20.437V5.255a.586.586,0,0,0-.584-.584H18.685a.586.586,0,0,0-.584.584V7.591H15.765a.586.586,0,0,0-.584.584V9.342a.586.586,0,0,0,.584.584H18.1v2.336a.586.586,0,0,0,.584.584h1.168a.586.586,0,0,0,.584-.584V9.926h2.336a.586.586,0,0,0,.584-.584V8.175A.586.586,0,0,0,22.772,7.591ZM8.175,9.342A4.671,4.671,0,1,0,3.5,4.671,4.671,4.671,0,0,0,8.175,9.342Zm3.27,1.168h-.609a6.353,6.353,0,0,1-5.321,0H4.9a4.906,4.906,0,0,0-4.9,4.9v1.518a1.752,1.752,0,0,0,1.752,1.752H14.6a1.752,1.752,0,0,0,1.752-1.752V15.415A4.906,4.906,0,0,0,11.445,10.51Z" transform="translate(0.281 2.225)" fill="#00db51"/>
+  </g>
+</svg>

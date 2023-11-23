@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Home_Icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Home_Icon" data-name="Home Icon" clip-path="url(#clip-Home_Icon)">
+    <path id="Icon_metro-home" data-name="Icon metro-home" d="M25.616,15.452,14.093,6.508,2.571,15.452V11.805L14.093,2.861l11.523,8.944Zm-2.881-.325v8.642H16.974V18.008H11.213v5.761H5.451V15.127l8.642-6.481Z" transform="translate(-2.093 -0.862)" fill="#00db51"/>
+  </g>
+</svg>

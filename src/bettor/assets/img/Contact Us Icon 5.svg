@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Contact_Us_Icon_5">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Contact_Us_Icon_5" data-name="Contact Us Icon 5" clip-path="url(#clip-Contact_Us_Icon_5)">
+    <path id="Icon_ionic-md-mail" data-name="Icon ionic-md-mail" d="M23.067,5.625H4.441A2.2,2.2,0,0,0,2.25,7.816v13.7A2.2,2.2,0,0,0,4.441,23.7H23.067a2.2,2.2,0,0,0,2.191-2.191V7.816A2.2,2.2,0,0,0,23.067,5.625Zm-.274,4.656-9.039,6.026L4.715,10.281V8.09l9.039,6.026L22.793,8.09Z" transform="translate(-1.754 -2.664)" fill="#00db51"/>
+  </g>
+</svg>
