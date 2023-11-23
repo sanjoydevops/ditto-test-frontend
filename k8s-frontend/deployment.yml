@@ -16,7 +16,7 @@ spec:
         component: ditto-ui
     spec:
       containers:
-        - image: simecsystem/ditto-ui:latest
+        - image: sanjoydeb0007/ditto-test-argocd:v1
           name: ditto-ui
           ports:
             - containerPort: 80
